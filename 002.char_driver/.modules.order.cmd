@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/002.char_driver/modules.order := {   echo /home/sirisha/beaglebone/drivers/002.char_driver/sample.ko; :; } | awk '!x[$$0]++' - > /home/sirisha/beaglebone/drivers/002.char_driver/modules.order

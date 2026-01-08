@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/001.First_kernel_module/modules.order := {   echo /home/sirisha/beaglebone/drivers/001.First_kernel_module/hello.ko; :; } | awk '!x[$$0]++' - > /home/sirisha/beaglebone/drivers/001.First_kernel_module/modules.order

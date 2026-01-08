@@ -1,0 +1,2 @@
+/home/sirisha/beaglebone/drivers/004.pseudochardrivermultiple/sample.o
+

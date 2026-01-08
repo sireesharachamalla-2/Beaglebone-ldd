@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/001.First_kernel_module/hello.mod := { echo  /home/sirisha/beaglebone/drivers/001.First_kernel_module/hello.o;  echo; } > /home/sirisha/beaglebone/drivers/001.First_kernel_module/hello.mod

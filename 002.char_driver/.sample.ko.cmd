@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/002.char_driver/sample.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/sirisha/beaglebone/drivers/002.char_driver/sample.ko /home/sirisha/beaglebone/drivers/002.char_driver/sample.o /home/sirisha/beaglebone/drivers/002.char_driver/sample.mod.o;  true

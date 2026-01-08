@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/002.char_driver/sample.mod := { echo  /home/sirisha/beaglebone/drivers/002.char_driver/sample.o;  echo; } > /home/sirisha/beaglebone/drivers/002.char_driver/sample.mod

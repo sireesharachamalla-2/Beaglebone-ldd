@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/003.pseudochardriver/Module.symvers := sed 's/ko$$/o/' /home/sirisha/beaglebone/drivers/003.pseudochardriver/modules.order | scripts/mod/modpost -m    -o /home/sirisha/beaglebone/drivers/003.pseudochardriver/Module.symvers -e    -T -
