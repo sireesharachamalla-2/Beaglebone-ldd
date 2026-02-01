@@ -1,0 +1,2 @@
+/home/sirisha/beaglebone/drivers/008.pcd_sysfs/pcd_platformdriver_dt_sysfs.o
+

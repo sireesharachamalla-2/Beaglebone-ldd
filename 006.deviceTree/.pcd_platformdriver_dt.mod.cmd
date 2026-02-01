@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/006.deviceTree/pcd_platformdriver_dt.mod := { echo  /home/sirisha/beaglebone/drivers/006.deviceTree/pcd_platformdriver_dt.o;  echo; } > /home/sirisha/beaglebone/drivers/006.deviceTree/pcd_platformdriver_dt.mod

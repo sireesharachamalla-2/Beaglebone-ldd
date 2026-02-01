@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.mod := { echo  /home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.o;  echo; } > /home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.mod

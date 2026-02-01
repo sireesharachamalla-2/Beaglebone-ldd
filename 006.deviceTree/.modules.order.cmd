@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/006.deviceTree/modules.order := {   echo /home/sirisha/beaglebone/drivers/006.deviceTree/pcd_platformdriver_dt.ko; :; } | awk '!x[$$0]++' - > /home/sirisha/beaglebone/drivers/006.deviceTree/modules.order

@@ -1,0 +1,2 @@
+/home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.o
+

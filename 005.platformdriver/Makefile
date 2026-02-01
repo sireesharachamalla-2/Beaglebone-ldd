@@ -1,4 +1,4 @@
-obj-m := pcd_device_setup.o pcd_platform_driver.o
+obj-m += pcd_platform_driver.o pcd_device_setup.o
 
 ARCH = arm
 CROSS_COMPILE = arm-linux-gnueabihf-
@@ -8,6 +8,4 @@ all:
 	make -C $(KDIR) M=$(shell pwd) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) modules
 clean:
 	make -C $(KDIR) M=$(shell pwd) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) clean
-
-
 

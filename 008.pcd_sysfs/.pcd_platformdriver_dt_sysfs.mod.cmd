@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/008.pcd_sysfs/pcd_platformdriver_dt_sysfs.mod := { echo  /home/sirisha/beaglebone/drivers/008.pcd_sysfs/pcd_platformdriver_dt_sysfs.o;  echo; } > /home/sirisha/beaglebone/drivers/008.pcd_sysfs/pcd_platformdriver_dt_sysfs.mod

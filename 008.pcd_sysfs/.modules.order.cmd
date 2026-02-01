@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/008.pcd_sysfs/modules.order := {   echo /home/sirisha/beaglebone/drivers/008.pcd_sysfs/pcd_platformdriver_dt_sysfs.ko; :; } | awk '!x[$$0]++' - > /home/sirisha/beaglebone/drivers/008.pcd_sysfs/modules.order

@@ -3,6 +3,7 @@ cmd_/home/sirisha/beaglebone/drivers/005.platformdriver/pcd_platform_driver.mod.
 source_/home/sirisha/beaglebone/drivers/005.platformdriver/pcd_platform_driver.mod.o := /home/sirisha/beaglebone/drivers/005.platformdriver/pcd_platform_driver.mod.c
 
 deps_/home/sirisha/beaglebone/drivers/005.platformdriver/pcd_platform_driver.mod.o := \
+    $(wildcard include/config/module/unload.h) \
     $(wildcard include/config/retpoline.h) \
   include/linux/kconfig.h \
     $(wildcard include/config/cc/version/text.h) \
@@ -37,7 +38,6 @@ deps_/home/sirisha/beaglebone/drivers/005.platformdriver/pcd_platform_driver.mod
     $(wildcard include/config/ftrace/mcount/record.h) \
     $(wildcard include/config/kprobes.h) \
     $(wildcard include/config/have/static/call/inline.h) \
-    $(wildcard include/config/module/unload.h) \
     $(wildcard include/config/constructors.h) \
     $(wildcard include/config/function/error/injection.h) \
   include/linux/list.h \

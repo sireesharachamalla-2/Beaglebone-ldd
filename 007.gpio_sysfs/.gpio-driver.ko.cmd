@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.ko /home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.o /home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.mod.o;  true

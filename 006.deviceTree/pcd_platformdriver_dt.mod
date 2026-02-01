@@ -1,0 +1,2 @@
+/home/sirisha/beaglebone/drivers/006.deviceTree/pcd_platformdriver_dt.o
+

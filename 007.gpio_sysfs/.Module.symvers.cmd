@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/007.gpio_sysfs/Module.symvers := sed 's/ko$$/o/' /home/sirisha/beaglebone/drivers/007.gpio_sysfs/modules.order | scripts/mod/modpost -m    -o /home/sirisha/beaglebone/drivers/007.gpio_sysfs/Module.symvers -e    -T -

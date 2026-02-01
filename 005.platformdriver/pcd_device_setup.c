@@ -19,7 +19,6 @@ struct platform_device platform_pcdev_1 = {
 		.release = pcdev_release
 	}
 };
-
 struct platform_device platform_pcdev_2 = {
 	.name = "pseudo_char_device",
 	.id = 1,
@@ -34,8 +33,7 @@ static int __init pcdev_platform_init(void)
 	platform_device_register(&platform_pcdev_1);
 	platform_device_register(&platform_pcdev_2);
 
-	pr_info("Device Setup module Inserted\n");
-	
+	pr_info("Device Setup module Inserted\n");	
 	return 0;
 }
 static void __exit pcdev_platform_exit(void)
@@ -43,10 +41,9 @@ static void __exit pcdev_platform_exit(void)
 	/* Un-register the platform device. */
 	platform_device_unregister(&platform_pcdev_1);
 	platform_device_unregister(&platform_pcdev_2);
-	
+
 	pr_info("Device Setup module removed\n");
 }
-
 static void pcdev_release(struct device* dev)
 {
 	pr_info("Device Released\n");
@@ -55,5 +52,7 @@ module_init(pcdev_platform_init);
 module_exit(pcdev_platform_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Module Which Registers platform devices");
 MODULE_AUTHOR("Sireesha");
+MODULE_DESCRIPTION("Module Which Registers platform devices");
+
+

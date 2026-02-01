@@ -1,0 +1,1 @@
+cmd_/home/sirisha/beaglebone/drivers/007.gpio_sysfs/modules.order := {   echo /home/sirisha/beaglebone/drivers/007.gpio_sysfs/gpio-driver.ko; :; } | awk '!x[$$0]++' - > /home/sirisha/beaglebone/drivers/007.gpio_sysfs/modules.order
